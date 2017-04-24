@@ -1,0 +1,30 @@
+{
+  "name": "github-projects",
+  "version": "0.0.0",
+  "description": "Because Github won't make organization projects public",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro server.js",
+    "start-static": "budo --css /node_modules/primer-css/build/build.css index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phated/github-projects.git"
+  },
+  "author": "Blaine Bublitz <blaine.bublitz@gmail.com> (https://github.com/phated)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/phated/github-projects/issues"
+  },
+  "homepage": "https://github.com/phated/github-projects#readme",
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "micro": "^7.3.2",
+    "primer-css": "^5.1.0",
+    "when": "^3.7.8",
+    "yo-yo": "^1.4.0"
+  },
+  "devDependencies": {
+    "budo": "^10.0.3"
+  }
+}
