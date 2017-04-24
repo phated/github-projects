@@ -4,7 +4,8 @@
   "description": "Because Github won't make organization projects public",
   "main": "index.js",
   "scripts": {
-    "start": "micro server.js",
+    "start": "micro -p 80 server.js",
+    "start-dev": "micro server.js",
     "start-static": "budo --css /node_modules/primer-css/build/build.css index.js"
   },
   "repository": {
