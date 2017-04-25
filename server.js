@@ -59,7 +59,7 @@ function containerView(projects, selectedId, body) {
 
 function cardView(card) {
   return yo`
-    <a class="menu-item" href=${card.content_url}>
+    <a class="menu-item" href=${card.content.html_url}>
       <span class="state state-${card.content.state} p-1">${card.content.state}</span> ${card.content.title}
     </a>
   `;
